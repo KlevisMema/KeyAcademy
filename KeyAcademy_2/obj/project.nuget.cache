@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hs5B4MM8fKlQUXQpXzdlBCOk8TtQ3lm3y0/xWg3WpCIezEb3VseFRmAutw4LJI3TZnRB8hZAQUsL/OtsiZNKnw==",
+  "dgSpecHash": "QKjTqsUZHxY7XobxygCwo8mpWDb7XxdP3hWgKCovoJclocWHaBNO0qw5gDgNK1/0OL7ZVvu96hN+qKFzvFFOig==",
   "success": true,
-  "projectFilePath": "/Users/marina/Projects/KeyAcademy_2/KeyAcademy_2/KeyAcademy_2.csproj",
+  "projectFilePath": "/Users/marina/Projects/KeyAcademy/KeyAcademy_2/KeyAcademy_2.csproj",
   "expectedPackageFiles": [
     "/Users/marina/.nuget/packages/microsoft.aspnet.webapi.client/5.2.9/microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "/Users/marina/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
