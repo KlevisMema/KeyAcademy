@@ -1,0 +1,35 @@
+﻿@model KeyAcademy_2.Models.RequestHoliday
+
+<form method="post" asp-controller="Home" asp-action="PostCreateHolidayRequest" class="form">
+
+    <div class="form-group">
+        <label asp-for="employeeName"></label>
+        <input class="form-control shadow-none" asp-for="employeeName" placeholder="Employee name" />
+        <span class="text-danger" asp-validation-for="employeeName"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="numberOfHolidays"></label>
+        <input class="form-control" asp-for="numberOfHolidays" placeholder="Number of holidays .." />
+        <span class="text-danger" asp-validation-for="numberOfHolidays"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="description"></label>
+        <textarea class="form-control" asp-for="description" placeholder="Description"></textarea>
+        <span class="text-danger" asp-validation-for="description"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="phoneNumber"></label>
+        <input class="form-control" asp-for="phoneNumber" placeholder="Phone number" />
+        <span class="text-danger" asp-validation-for="phoneNumber"></span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Send</button>
+
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
